@@ -7,9 +7,9 @@
 Add-Type -AssemblyName System.DirectoryServices.AccountManagement
 
 # 1. Define a pasta raiz das áreas 
-$RootFolder = "I:\CSJ" 
+$RootFolder = "" 
 # 2. Local onde os relatórios serão salvos 
-$ExportFolder = "C:\Temp\Relatorios_PDF_CSJ"
+$ExportFolder = ""
 
 # Cria a pasta de destino caso não exista
 if (-not (Test-Path $ExportFolder)) {
